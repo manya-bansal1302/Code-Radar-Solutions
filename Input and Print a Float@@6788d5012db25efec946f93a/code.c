@@ -5,8 +5,8 @@ char* welcome() {
 }
 
 int main() {
-    float num;
-    scanf("%f" , &num);
-    printf("You entered %2f\ln",num);
+    float number;
+    scanf("%f" , &number);
+    printf("You entered %2f\ln",number);
     return 0;
 }
