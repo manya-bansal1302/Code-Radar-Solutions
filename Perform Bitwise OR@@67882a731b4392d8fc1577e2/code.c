@@ -9,7 +9,7 @@ int main() {
     int result = a+b;
 
     if(a||b){
-        printf("%d/n",result);
+        printf("%d",result);
     }
     return 0;
 }
