@@ -5,7 +5,7 @@ int main() {
    char c;
    scanf("%c",&c);
 
-   if(c>='A' && c<='Z'){
+   if(isupper(ch)){
     prinf("Uppercase");
    }
    else{
