@@ -7,11 +7,11 @@ int main() {
     scanf("%d",&num1);
     int num2;
     scanf("%d",&num2);
-    if(a>0 && b<0) || (a<0 && b>0){
+    if(num1>0 && num2<0) || (num1<0 && num2>0){
         printf("True");
     }
     else{
-        printf("False");
+        printf("False")
     }
     return 0;
 }
