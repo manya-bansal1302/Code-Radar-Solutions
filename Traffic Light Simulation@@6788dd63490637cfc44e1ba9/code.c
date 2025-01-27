@@ -1,9 +1,5 @@
 #include <stdio.h>
-
-
-
-int main() {
-    int main(){
+int main(){
     char ch;
     scanf(" %c",&ch);
     if(ch == 'R'){
