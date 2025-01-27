@@ -8,10 +8,10 @@ int main() {
     scanf("%d",&num2);
 
     if(num1>0 && num2>0){
-        printf(True);
+        printf("True");
     }
     else{
-        printf(false);
+        printf("False");
     }
     return 0;
 }
