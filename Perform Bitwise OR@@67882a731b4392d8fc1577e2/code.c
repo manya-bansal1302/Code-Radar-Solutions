@@ -6,10 +6,8 @@ int main() {
     scanf("%d",&a);
     int b;
     scanf("%d",&b);
-    int result = a+b;
-
-    if(a||b){
-        printf("%d",result);
-    }
+    int result = a||b;
+    
+    printf("%d",result);
     return 0;
 }
