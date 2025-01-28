@@ -2,9 +2,9 @@
 
 
 int main() {
-   char c;
-   scanf("%c",&c);
- if(c == 'A' to 'Z'){
+   char ch;
+   scanf("%c",&ch);
+ if(ch == 'A' to 'Z'){
     printf("Uppercase");
  }
  else{
