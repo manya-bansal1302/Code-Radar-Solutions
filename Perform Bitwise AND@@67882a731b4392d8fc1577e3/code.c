@@ -5,10 +5,8 @@ int main() {
    scanf("%d",&num1);
    int num2;
    scanf("%d",&num2);
-   int result = num1 && num2;
+   int result = num1 & num2;
 
-   if(num1 && num2 ){
-    printf("%d",result);
-   }
+   printf("%d",result);
     return 0;
 }
