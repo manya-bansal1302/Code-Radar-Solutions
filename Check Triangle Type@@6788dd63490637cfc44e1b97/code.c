@@ -8,10 +8,10 @@ int main() {
     int c;
     scanf("%d",&c);
 
-    if(a==b==c){
+    if(a==b && b==c && c==a){
         printf("Equilateral");
     }
-    else if(a==b){
+    else if(a==b && a!=c && b!=c){
         printf("Isosceles");
     }
     else{
