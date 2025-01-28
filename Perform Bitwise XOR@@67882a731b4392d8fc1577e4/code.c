@@ -5,6 +5,7 @@ int main() {
    scanf("%d",&num1);
    int num2;
    scanf("%d",&num2);
+   
    result = num1^num2;
 
    printf("%d",result);
