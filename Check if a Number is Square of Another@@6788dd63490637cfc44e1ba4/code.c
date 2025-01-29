@@ -7,7 +7,7 @@ int main() {
     int num2;
     scanf("%d",&num2);
 
-    if(num1 == num2**num2){
+    if(num1 == num2*num2){
         printf("Yes");
     }
     else{
