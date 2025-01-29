@@ -12,16 +12,16 @@ int main(){
     int multiply = num1*num2;
     int divide= num1/num2;
 
-    if(num1 + sign == '+' + num2){
+    if(num1 + sign == + + num2){
         printf("%d",sum);
     }
-    else if(num1 + sign == '-' + num2){
+    else if(num1 + sign == - + num2){
         printf("%d",subtract);
     }
-    else if(num1 + sign == '*' + num2){
+    else if(num1 + sign == * + num2){
         printf("%d",multiply);
     }
-    else if(num1 + sign == '/' + num2){
+    else if(num1 + sign == / + num2){
         printf("%d",divide);
     }
     else{
