@@ -7,22 +7,17 @@ int main(){
     int sign;
     scanf("%d",&sign);
 
-    int sum = num1+num2;
-    int subtract = num1-num2;
-    int multiply = num1*num2;
-    int divide= num1/num2;
-
-    if(num1 + sign == + + num2){
-        printf("%d",sum);
+    if( sign == '+'){
+        printf("%d",num1+num2);
     }
-    else if(num1 + sign == - + num2){
-        printf("%d",subtract);
+    else if( sign == '-' ){
+        printf("%d",num1-num2);
     }
-    else if(num1 + sign == * + num2){
-        printf("%d",multiply);
+    else if(sign == '*' ){
+        printf("%d",num1*num2);
     }
-    else if(num1 + sign == / + num2){
-        printf("%d",divide);
+    else if(sign == '/' ){
+        printf("%d",num1/num2);
     }
     else{
         print("error");
