@@ -4,7 +4,7 @@ int main(){
     scanf("%d",&num1);
     int num2;
     scanf("%d",&num2);
-    char sign;
+    int sign;
     scanf("%d",&sign);
 
     if( sign == '+'){
