@@ -1,11 +1,11 @@
 #include <stdio.h>
 int main(){
+    char sign;
     int num1;
     scanf("%d",&num1);
     int num2;
     scanf("%d",&num2);
 
-    char sign;
     getchar();
     scanf("%c",&sign);
 
