@@ -5,19 +5,19 @@ int main(){
     int num2;
     scanf("%d",&num2);
 
-    char sign;
-    scanf("%c", &sign);
+    int sign;
+    scanf("%d", &sign);
 
-    if( sign == '+'){
+    if( sign == +){
         printf("%d",num1+num2);
     }
-    else if( sign == '-' ){
+    else if( sign == - ){
         printf("%d",num1-num2);
     }
-    else if(sign == '*' ){
+    else if(sign == * ){
         printf("%d",num1*num2);
     }
-    else if(sign == '/' ){
+    else if(sign == / ){
         printf("%d",num1/num2);
     }
     else{
