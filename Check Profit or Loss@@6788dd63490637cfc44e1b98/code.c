@@ -14,7 +14,7 @@ int main() {
         printf("Loss");
     }
     else{
-        printf("Profit No Loss");
+        printf("No Profit No Loss");
     }
     return 0;
 }
