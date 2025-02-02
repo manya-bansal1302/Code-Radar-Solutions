@@ -5,8 +5,8 @@ int main(){
     int num2;
     scanf("%d",&num2);
 
-    getchar();
     char sign;
+    getchar();
     scanf("%c",&sign);
 
     if( sign == '+'){
