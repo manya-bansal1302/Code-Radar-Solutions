@@ -2,15 +2,15 @@
 
 
 int main() {
-    int num1;
-    scanf("%d",&num1);
-    int num2;
-    scanf("%d",&num2);
+    int costPrice;
+    scanf("%d",&costPrice);
+    int sellingPrice;
+    scanf("%d",&sellingPrice);
 
-    if(num1<num2){
+    if(costPrice<sellingPrice){
         printf("Profit");
     }
-    else if(num1>num2){
+    else if(costPrice>sellingPrice){
         printf("Loss");
     }
     else{
