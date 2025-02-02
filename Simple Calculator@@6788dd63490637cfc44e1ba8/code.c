@@ -8,16 +8,16 @@ int main(){
     int sign;
     scanf("%d", &sign);
 
-    if( sign == +){
+    if( sign == '+'){
         printf("%d",num1+num2);
     }
-    else if( sign == - ){
+    else if( sign == '-' ){
         printf("%d",num1-num2);
     }
-    else if(sign == * ){
+    else if(sign == '*' ){
         printf("%d",num1*num2);
     }
-    else if(sign == / ){
+    else if(sign == '/' ){
         printf("%d",num1/num2);
     }
     else{
