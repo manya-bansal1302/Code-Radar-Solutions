@@ -14,7 +14,12 @@ int main(){
         printf("%d", num1*num2);
     }
     else if(sign == '/' ){
-        printf("%d", num1/num2);
+       if(num2!=0){
+        printf("%d",a/b);
+       }
+       else{
+        printf("error");
+       }
     }
     else{
         printf("error");
