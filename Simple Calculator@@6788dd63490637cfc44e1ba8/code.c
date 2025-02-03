@@ -14,7 +14,7 @@ int main(){
     }
     else if(sign == '/' ){
        if(num2!=0){
-        printf("%d\n",a/b);
+        printf("%d\n",num1/num2);
        }
        else{
         printf("error\n");
