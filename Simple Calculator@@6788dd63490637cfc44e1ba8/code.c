@@ -5,24 +5,24 @@ int main(){
     scanf("%d %d %c", &num1, &num2, &sign);
 
     if( sign == '+'){
-        printf("%d", num1+num2);
+        printf("%d\n", num1+num2);
     }
     else if( sign == '-' ){
-        printf("%d", num1-num2);
+        printf("%d\n", num1-num2);
     }
     else if(sign == '*' ){
-        printf("%d", num1*num2);
+        printf("%d\n", num1*num2);
     }
     else if(sign == '/' ){
        if(num2!=0){
-        printf("%d",a/b);
+        printf("%d\n",a/b);
        }
        else{
-        printf("error");
+        printf("error\n");
        }
     }
     else{
-        printf("error");
+        printf("error\n");
     }
     return 0;
 }
