@@ -9,16 +9,16 @@ int main(){
     scanf("%c", &sign);
 
     if( sign == '+'){
-        printf("%d",num1+num2);
+        printf("%d", num1+num2);
     }
     else if( sign == '-' ){
-        printf("%d",num1-num2);
+        printf("%d", num1-num2);
     }
     else if(sign == '*' ){
-        printf("%d",num1*num2);
+        printf("%d", num1*num2);
     }
     else if(sign == '/' ){
-        printf("%d",num1/num2);
+        printf("%d", num1/num2);
     }
     else{
         printf("error");
