@@ -7,8 +7,13 @@ int main() {
    scanf("%d",&num);
    int sum=0;
    for(int i=1;i<num;i++){
-    sum++;
-    printf("%d",sum);
+     if(sum==0){
+       printf("%d",sum);
+     }
+     else{
+        printf("%d",sum++);
+     }
+    
    }
     return 0;
 }
