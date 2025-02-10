@@ -11,7 +11,7 @@ int main() {
        printf("%d",sum);
      }
      else{
-        printf("%d",sum++);
+        printf("%d",sum+1);
      }
     
    }
