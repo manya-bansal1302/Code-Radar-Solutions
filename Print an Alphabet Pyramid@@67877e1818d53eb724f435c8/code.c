@@ -2,11 +2,12 @@
 #include <stdio.h>
 int main(){
     int num;
-    char ch;
+    char ch = 'A';
     scanf("%d",&num);
     for(int i = 1 ;i<num;i++){
-        for(int j = 1; j<=num;j++){
+        for(int j = 1; j<=i;j++){
             printf("%c ",ch);
+            ch++;
         }
         printf("\n");
     }
