@@ -7,9 +7,6 @@ int main() {
     for(int i =1;i<=num;i++){
         for(int j=i;j<=num;j++){
         printf("%d ",j );
-        if (j != num) {   
-                printf(" ");
-            }
       }
        printf("\n");
     }
