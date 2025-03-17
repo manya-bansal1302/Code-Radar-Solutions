@@ -8,7 +8,7 @@ scanf("%d",&num);
         printf("*");
         }
         else{
-            printf("")
+            printf("");
         }
     }
     printf("\n");
