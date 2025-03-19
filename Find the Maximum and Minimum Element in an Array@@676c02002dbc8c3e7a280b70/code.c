@@ -11,9 +11,7 @@ int main(){
       int i ;
       int arr[i];
         if(arr[i]<=arr[N-1]){
+        printf("%d %d",arr[0],arr[N-1]);
         }
-
-        printf("%d",arr[0]);
-        printf("%d",arr[N-1]);
     }
 }
