@@ -13,7 +13,8 @@ int main(){
 
     for(int i = 0;i<N;i++){
         if(arr[i]>slargest && arr[i]<largest){
-            printf("%d",slargest);
+             slargest = arr[i];
         }
+        printf("%d",slargest);
     }
 }
