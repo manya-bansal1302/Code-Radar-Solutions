@@ -10,9 +10,9 @@ for(int i =0;i<N;i++){
 }
 
  int i,j;
- int arr[i];
- int arr[j];
- if(arr[i]==arr[j]){
+ int ar[i];
+ int a[j];
+ if(ar[i]==a[j]){
     printf("-1\n");
  }
 
