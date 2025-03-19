@@ -11,7 +11,10 @@ int main(){
       int i ;
       int arr[i];
         if(arr[i]<=arr[N-1]){
-        printf("%d %d",arr[0],arr[N-1]);
+         int mimimum = arr[0];
+         int maximum = arr[N-1];
+         printf("%d %d", mimimum,maximum);
+         
         }
     }
 }
