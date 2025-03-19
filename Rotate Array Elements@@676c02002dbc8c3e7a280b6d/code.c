@@ -1,8 +1,8 @@
 #include <stdio.h>
 int main(){
+    int N ;
+    scanf("%d",&N);
     int arr[N];
-    int arr[N] = {};
-    scanf("%d\n",&N);
     int k;
     scanf("%d",&k);
 }
