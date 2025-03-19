@@ -1,6 +1,6 @@
 // Your code here...
 #include <stdio.h>
-#include <limits.h> 
+
 int main(){
     int N;
     scanf("%d",&N);
@@ -10,7 +10,7 @@ int main(){
     }
 
     int largest = arr[0];
-    int slargest = INT_MIN;
+    int slargest = arr[0];
 
     for(int i = 0;i<N;i++){
 
