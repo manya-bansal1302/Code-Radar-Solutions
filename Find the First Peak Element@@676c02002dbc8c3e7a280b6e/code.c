@@ -12,7 +12,7 @@ for(int i =0;i<N;i++){
  for(int i = 0;i<N;i++){
     for(int j = i+1 ;j<N;j++){
     if(arr[i]==arr[j]){
-    printf("-1");
+    printf("-1\n");
    }
     }
  }
