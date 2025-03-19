@@ -22,5 +22,5 @@ int main(){
             slargest = arr[i];
         }
     }
-    printf("%d",&slargest);
+    printf("%d",slargest);
 }
