@@ -8,8 +8,11 @@ int main(){
     }
     int i;
     int ar[i];
-       
-        if(ar[i]<arr[N-1]){
+        
+        if(arr[N] == 1){
+            printf("Sorted");
+        }
+       else if(ar[i]<arr[N-1]){
             printf("Sorted");
         }
         else{
