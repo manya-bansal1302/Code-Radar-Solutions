@@ -22,5 +22,10 @@ int main(){
             slargest = arr[i];
         }
     }
+    if(slargest == largest){
+        printf("-1\n");
+    }
+    else{
         printf("%d",slargest);
+    }
 }
