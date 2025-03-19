@@ -11,6 +11,6 @@ for(int i =0;i<N;i++){
   for(int i = 0;i<N;i++){
    int temp = 0;
    if(temp == arr[i]){
-    ptintf("%d",temp);
+    printf("%d",temp);
    }
   }
