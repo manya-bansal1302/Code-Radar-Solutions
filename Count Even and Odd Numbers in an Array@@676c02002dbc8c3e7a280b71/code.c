@@ -14,12 +14,11 @@ int main(){
 
     for(int i = 0;i<N;i++){
        if(arr[i] % 2 == 0){
-         even++;
-         printf("%d ",even);
+         even++ ;
        }
-       if(arr[i] % 2 != 0){
-        odd++;
-        printf("%d",odd);
+       else{
+        odd++ ;
        }
     }
+    printf("%d %d",even,odd);
 }
