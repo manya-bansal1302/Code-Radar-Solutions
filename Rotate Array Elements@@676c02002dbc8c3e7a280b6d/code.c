@@ -3,7 +3,6 @@ int main(){
     int N;
     scanf("%d",N);
      int arr[N];
-     scanf("%d",&arr[N]);
 
      int k ;
      scanf("%d",&k);
