@@ -9,12 +9,14 @@ for(int i =0;i<N;i++){
     scanf("%d\n",&arr[i]);
 }
 
- int i,j;
- int ar[i];
- int a[j];
- if(ar[i]==a[j]){
-    printf("-1\n");
- }
+  for (int i = 0; i < N; i++) {
+        for (int j = i + 1; j < N; j++) {
+            if (arr[i] == arr[j]) {
+                printf("-1\n"); 
+                return 0; 
+            }
+        }
+    }
 
 
 
