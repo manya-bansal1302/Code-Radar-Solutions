@@ -21,6 +21,6 @@ int main(){
         if(arr[i]<largest && arr[i]>slargest){
             slargest = arr[i];
         }
-        printf("%d",&slargest);
     }
+    printf("%d",&slargest);
 }
