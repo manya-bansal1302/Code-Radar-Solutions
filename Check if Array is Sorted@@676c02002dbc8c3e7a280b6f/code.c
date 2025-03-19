@@ -9,7 +9,7 @@ int main(){
     int i;
     int ar[i];
         
-        if(ar[i]<arr[N-1] || arr[i] == 1){
+        if(ar[i]<arr[N-1] || arr[N] == 1){
             printf("Sorted");
         }
         else{
