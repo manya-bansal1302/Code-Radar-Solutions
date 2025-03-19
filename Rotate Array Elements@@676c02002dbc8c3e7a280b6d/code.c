@@ -8,9 +8,9 @@ int main(){
         scanf("%d\n",&arr[i]);
     }
 
-    for(int i = 0;i<N;i++){
-        printf("%d\n",arr[i]);
-    }
+    // for(int i = 0;i<N;i++){
+    //     printf("%d\n",arr[i]);
+    // }
 
     int k;
     scanf("%d",&k);
