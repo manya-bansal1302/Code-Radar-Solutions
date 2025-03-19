@@ -6,7 +6,7 @@ int N;
 scanf("%d",&N);
 int arr[N];
 for(int i =0;i<N;i++){
-    scanf("%d\n",arr[i]);
+    scanf("%d\n",&arr[i]);
 }
   for(int i = 0;i<N;i++){
    int temp = 0;
