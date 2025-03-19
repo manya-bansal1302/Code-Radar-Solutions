@@ -14,11 +14,11 @@ int main(){
     for(int i = 0;i<N;i++){
 
         if(arr[i]>largest){
-            largest = arr[i];
             slargest = largest;
+            largest = arr[i];
         }
 
-        if(arr[i]<largest && arr[i]>slargest){
+        else if(arr[i]<largest && arr[i]>slargest){
             slargest = arr[i];
         }
          printf("%d",slargest);
