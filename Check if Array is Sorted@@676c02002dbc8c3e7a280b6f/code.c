@@ -7,9 +7,9 @@ int main(){
         scanf("%d",&arr[i]);
     }
     int i;
-    int arr[i];
+    int ar[i];
        
-        if(arr[i]<arr[N-1]){
+        if(ar[i]<arr[N-1]){
             printf("Sorted");
         }
         else{
