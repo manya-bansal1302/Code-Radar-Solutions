@@ -14,7 +14,7 @@ int main(){
 
     for(int i = 0;i<N;i++){
        if(arr[i] % 2 == 0){
-        printf("%d",even);
+        printf("%d ",even);
        }
        if(arr[i] % 2 != 0){
         printf("%d",odd);
