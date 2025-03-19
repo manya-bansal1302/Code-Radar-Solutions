@@ -12,9 +12,15 @@ int main(){
     int slargest = arr[0];
 
     for(int i = 0;i<N;i++){
-        if(arr[i]>slargest && arr[i]<largest){
-             slargest = arr[i];
+
+        if(arr[i]>largest){
+            largest = arr[i];
+            slargest = largest;
         }
-        printf("%d",slargest);
+
+        if(arr[i]<largest && arr[i]>slargest){
+            slargest = arr[i];
+        }
+        printf("%d",&slargest);
     }
 }
