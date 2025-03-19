@@ -13,10 +13,10 @@ int main(){
 
       for(int i =0;i<N;i++){
         if(arr[i]<minimum){
-            arr[i] = minimum;
+            minimum = arr[i];
         }
         if(arr[i]>maximum){
-            arr[i] = maximum;
+             maximum = arr[i];
         }
       }
      printf("%d %d",minimum,maximum);
