@@ -9,9 +9,9 @@ for(int i =0;i<N;i++){
     scanf("%d\n",&arr[i]);
 }
   for(int i = 0;i<N;i++){
-   int temp = 0;
-   if(temp == arr[i]){
-    printf("%d",temp);
-   }
+  if((i==0|| arr[i]>=arr[N-1]) && ( i == N-1 || arr[i]>=arr[i+1])){
+    printf("%d",arr[i]);
+    break;
+  }
   }
 }
