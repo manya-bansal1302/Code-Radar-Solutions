@@ -5,12 +5,12 @@ int main(){
     scanf("%d",&N);
     int arr[N];
     for(int i =0;i<N;i++){
-        printf("%d",&arr[i]);
+        scanf("%d",&arr[i]);
     }
 
     int T;
     scanf("%d",&T);
-
+    
     int target;
 
     if(T == target){
