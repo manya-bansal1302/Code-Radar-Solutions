@@ -16,7 +16,7 @@ int main(){
 
     for(int i =0;i<N;i++){
         if(arr[i] == T){
-        found = -1;
+        found = i;
         break;
         }
     }
