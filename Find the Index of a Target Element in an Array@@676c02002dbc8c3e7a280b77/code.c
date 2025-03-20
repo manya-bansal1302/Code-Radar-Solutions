@@ -11,10 +11,14 @@ int main(){
     int T;
     scanf("%d",&T);
     
+    int found = -1;
+
+
     for(int i =0;i<N;i++){
         if(T == arr[i]){
-        printf("%d",arr[i]);
+        found = -1;
+        break;
         }
-        
     }
+    printf("%d",found);
 }
