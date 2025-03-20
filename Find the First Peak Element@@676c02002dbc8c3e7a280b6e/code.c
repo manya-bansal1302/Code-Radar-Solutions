@@ -10,8 +10,7 @@ int main(){
     int target;
     for(int i = 0;i<N;i++){
         if(arr[i]<target){
-            
+                printf("%d",target);
         }
     }
-    printf("%d",target);
 }
