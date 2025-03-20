@@ -13,7 +13,7 @@ int main(){
     
     for(int i =0;i<N;i++){
         if(T == arr[i]){
-            printf("%d",T);
+            printf("%d",arr[i]);
         }
     }
 }
