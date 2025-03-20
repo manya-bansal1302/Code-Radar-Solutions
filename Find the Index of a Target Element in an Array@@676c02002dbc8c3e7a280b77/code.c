@@ -11,10 +11,9 @@ int main(){
     int T;
     scanf("%d",&T);
     
-    int target;
-  for(int i = 0;i<N;i++){
-    if(T == target){
-        printf("%d",arr[i]);
+    for(int i =0;i<N;i++){
+        if(T == arr[i]){
+            printf("%d",T);
+        }
     }
-  }
 }
