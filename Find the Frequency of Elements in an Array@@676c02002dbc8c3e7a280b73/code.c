@@ -4,13 +4,13 @@ int main(){
     int n;
     scanf("%d",&n);
     int arr[n];
-    int freq[n]
+    int freq[n];
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
         freq[i] = -1;
     }
 
-    for(int i<0;i<n;i++){
+    for(int i=1;i<n;i++){
      if(freq[i]==-1){
         int count = 1;
 
