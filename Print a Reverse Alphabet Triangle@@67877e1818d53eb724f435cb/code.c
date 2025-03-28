@@ -10,5 +10,6 @@ int main(){
             printf("%c ",ch);
             ch++;
         }
+        printf("\n");
     }
 }
