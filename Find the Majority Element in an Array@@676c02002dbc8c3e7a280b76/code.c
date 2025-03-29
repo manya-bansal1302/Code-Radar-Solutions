@@ -19,6 +19,8 @@ int main(){
      if(majority>N/2){
         printf("%d\n",arr[i]);
      }
+     else{
+        printf("-1\n");
+     }
    }
-   printf("-1\n");
 }
