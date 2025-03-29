@@ -15,7 +15,7 @@ int main(){
      for(int j = i+1;j<N;j++){
         if(arr[i]==arr[j]){
            majority++;
-           arr[j]== -1;
+           arr[j]= -1;
         }
      }
      if(majority>N/2){
