@@ -11,7 +11,7 @@ int main(){
 
     int largestEven = -1;
     for(int i=0;i<n;i++){
-        if(arr[i]%2==0) && arr[i]>largestEven{
+        if(arr[i]%2==0 && arr[i]>largestEven){
             largestEven=arr[i];
         }
     }
