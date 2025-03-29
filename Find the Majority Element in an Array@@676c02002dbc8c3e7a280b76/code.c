@@ -10,7 +10,7 @@ int main(){
    }
 
    for(int i =0;i<N;i++){
-     int majority ;
+     int majority = 1 ;
      for(int j = i+1;j<N;j++){
         if(arr[i]==arr[j]){
            majority++;
