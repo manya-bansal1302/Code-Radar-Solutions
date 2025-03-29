@@ -13,6 +13,6 @@ int main(){
             if(arr[i]<=arr[j]);
             target = arr[j];
         }
-        printf("%d",target);
     }
+    printf("%d",target);
 }
