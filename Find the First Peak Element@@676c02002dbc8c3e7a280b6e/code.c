@@ -9,8 +9,9 @@ int main(){
 
     int target;
     for(int i = 1;i<=N;i++){
-        if(arr[i]<=target){
-        
+        for(int j = i;j<=N;j++){
+            if(arr[i]<=arr[j]);
+            traget++;
         }
     }
     printf("%d",target);
