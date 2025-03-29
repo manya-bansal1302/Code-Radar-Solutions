@@ -9,7 +9,7 @@ int main(){
 
     int target = -1;
     for(int i = 0;i<N;i++){
-        if((i==0||arr[i]>arr[i-1]) && (i == N-1 || arr[i]>arr[N-1])){
+        if((i==0||arr[i]>arr[i-1]) && (i == N-1 || arr[i]>arr[i+1])){
             target = arr[i];
             break;
         }
