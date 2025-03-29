@@ -20,6 +20,7 @@ int main(){
      }
      if(majority>N/2){
         printf("%d\n",arr[i]);
+        return 0;
      }
    }
    printf("-1\n");
