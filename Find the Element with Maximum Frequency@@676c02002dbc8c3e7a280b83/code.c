@@ -8,13 +8,18 @@ int main(){
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
-    int maxFreq = 0;
+    int maxFreq = 0, maxEle = -1;
     for(int i=0;i<n;i++){
+        int count = 1;
         for(int j=i+1;j<n;j++){
-            if((arr[i]==arr[j])>=n){
-                maxFreq = arr[i];
+            if(arr[i]==arr[j]){
+                count++;
             }
         }
+        if(count>maxFreq){
+            maxFreq=count;
+            maxEle= arr[i];
+        }
     }
-    printf("%d",maxFreq);
+    printf("%d",maxEle);
 }
