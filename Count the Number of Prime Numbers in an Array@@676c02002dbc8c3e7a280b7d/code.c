@@ -10,8 +10,19 @@ int main(){
 
     int prime = 0;
     for(int i =0;i<N;i++){
-        if(i > 1 || i%i == 0 || i%2 == 0 || i%3==0||i%5==0||i%7==0 ){
-            prime++ ;
+        int num = arr[i];
+
+        if(num<2) continue;;
+
+        int isprime= 1;
+        for(int j =2;j*j<=num;j++){
+            if(num%j==0){
+                isprime =0 ;
+                break;
+            }
+        }
+        if(isprime){
+            prime++;
         }
     }
     printf("%d",prime);
