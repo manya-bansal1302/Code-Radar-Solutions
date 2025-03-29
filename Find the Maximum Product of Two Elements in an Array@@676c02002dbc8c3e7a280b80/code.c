@@ -16,6 +16,6 @@ int main(){
                 maxi++;
             }
         }
-        printf("%d",maxi);
     }
+    printf("%d",maxi);
 }
