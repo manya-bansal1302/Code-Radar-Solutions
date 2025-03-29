@@ -9,8 +9,8 @@ int main(){
         scanf("%d",&arr[i]);
     }
 
-    int largest = arr[0];
-    int slargest = INT_MAX;
+    int largest = INT_MIN ;
+    int slargest = INT_MIN;
 
     for(int i = 0;i<N;i++){
 
@@ -23,7 +23,7 @@ int main(){
             slargest = arr[i];
         }
     }
-    if(slargest == largest){
+    if(slargest == INT_MIN){
         printf("-1\n");
     }
     else{
