@@ -11,7 +11,7 @@ int main(){
     for(int i = 1;i<=N;i++){
         for(int j = i;j<=N;j++){
             if(arr[i]<=arr[j]);
-            arr[i]=target;
+             target++;
         }
     }
     printf("%d",target);
