@@ -23,5 +23,10 @@ int main(){
             sSmallest = arr[i];
         }
     }
+    if(sSmallest==INT_MAX){
+        printf("-1\n");
+    }
+    else{
     printf("%d",sSmallest);
+    }
 }
