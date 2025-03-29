@@ -2,18 +2,18 @@
 #include<stdio.h>
 int main(){
 int n,k;
-scanf("%d %d ",&n, &k);
+scanf("%d %d",&n, &k);
 
 int arr[n];
 for(int i=0;i<n;i++){
-    scanf("%d",&arr[n]);
+    scanf("%d",&arr[i]);
 }
 
- int elements;
+ int elements = 0;
 for(int i=0;i<n;i++){
     if(arr[i]>k){
-     elements = arr[i];
+     elements++;
     }
     printf("%d",elements);
- }
+  }
 }
