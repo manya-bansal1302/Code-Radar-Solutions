@@ -8,12 +8,21 @@ int main(){
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
-
-        int i;
-        if(arr[i]>=arr[n-1] && arr[i]<arr[n-1]){
-            printf("YES");
-        }
-        else{
-            printf("NO");
-        }
+    
+    int increasing = 1;
+    int decreasing = 1;
+    for(int i=0i<n;i++){
+    if(arr[i]>arr[i-1]){
+        decreasing = 0;
     }
+    else{
+        increasing = 0;
+    }
+  }
+   if(increasing||decreasing){
+    printf("YES");
+   }
+   else{
+    printf("NO");
+   }
+ }
