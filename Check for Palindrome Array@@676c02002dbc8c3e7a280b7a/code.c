@@ -10,7 +10,7 @@ int main(){
     }
     
     int palindrome = 1;
-    for(int i=0;i<n\2;i++){
+    for(int i=0;i<n/2;i++){
        if(rr[i] != rr[n-1-i]){
         palindrome = 0;
         break;
