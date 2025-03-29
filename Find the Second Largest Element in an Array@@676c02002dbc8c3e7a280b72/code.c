@@ -10,7 +10,7 @@ int main(){
     }
 
     int largest = arr[0];
-    int slargest = arr[0];
+    int slargest = INT_MAX;
 
     for(int i = 0;i<N;i++){
 
