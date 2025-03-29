@@ -13,9 +13,11 @@ int main(){
     for(int i=0;i<n;i++){
         for(int j=i+1;j<n;j++){
             if(arr[i]==arr[j]){
-                repeat = arr[j];
+                repeat = arr[i];
+                printf("%d",repeat);
+                return 0;
             }
         }
     }
-    printf("%d",repeat);
+    printf("-1");
 }
