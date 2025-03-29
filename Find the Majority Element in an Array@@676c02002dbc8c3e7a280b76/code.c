@@ -22,4 +22,5 @@ int main(){
         printf("%d\n",arr[i]);
      }
    }
+   printf("-1\n");
 }
