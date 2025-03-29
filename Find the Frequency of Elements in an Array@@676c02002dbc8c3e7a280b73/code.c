@@ -17,5 +17,5 @@ int main(){
             }
         }
     }
-    printf("%d %d",arr[i],frequency);
+    printf("%d",frequency);
 }
