@@ -10,7 +10,7 @@ int main(){
 
     int prime = 0;
     for(int i =0;i<N;i++){
-        if(i > 1 || i%i == 0 ){
+        if(i > 1 || i%i == 0 || i%2 == 0 || i%3==0||i%5==0||i%7==0 ){
             prime++ ;
         }
     }
