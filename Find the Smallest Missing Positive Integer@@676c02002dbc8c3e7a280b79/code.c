@@ -9,7 +9,7 @@ int main(){
         scanf("%d",&arr[i]);
     }
 
-    for(int i = missing ;;missing++){
+    for(int missing = 1 ;;missing++){
         found= 0;
     }
 
