@@ -11,7 +11,6 @@ int main(){
 
     for(int missing = 1 ;;missing++){
        int found= 0;
-    }
 
     for(int i =0;i<N;i++){
        if(arr[i]==missing){
@@ -24,4 +23,5 @@ int main(){
         printf("%d",missing);
         break;
     }
+ }
 }
