@@ -19,7 +19,7 @@ int main(){
             sSmallest = smallest;
             smallest = arr[i];
         }
-        else if(arr[i]<smallest && arr[i]>sSmallest){
+        else if(arr[i]>smallest && arr[i]<sSmallest){
             sSmallest = arr[i];
         }
     }
