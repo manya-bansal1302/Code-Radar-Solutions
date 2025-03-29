@@ -12,7 +12,7 @@ int main(){
     int maxi =1;
     for(int i=0;i<n;i++){
         for(int j=i+1;j<n;j++){
-            if(arr[i]*arr[j] == maxi){
+            if(arr[i]*arr[j] >= arr[n]){
                 maxi++;
             }
         }
