@@ -9,11 +9,17 @@ int main(){
         scanf("%d",&arr[i]);
     }
 
-
+    int index = 0;
     for(int i=0;i<n;i++){
-        if(arr[i]==0){
-            arr[n-1]=0;
+        if(arr[i] != 0){
+            arr[ndex++]=arr[i];
         }
     }
-    printf("%d",arr[n-1]);
+    while(index<n){
+        arr[index++] = 0;
+    }
+
+    for(int i=0;i<n;i++){
+        printf("%d",arr[i]);
+    }
 }
