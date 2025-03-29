@@ -15,7 +15,7 @@ int main(){
             if(sub>subtract){
                 subtract=sub;
             }
-        prinf("%d",subtract);
+        printf("%d",subtract);
         return 0;
         }
     }
