@@ -9,10 +9,11 @@ for(int i=0;i<n;i++){
     scanf("%d",&arr[n]);
 }
 
+ int elements;
 for(int i=0;i<n;i++){
     if(arr[i]>k){
-        int elements = arr[i];
+     elements = arr[i];
     }
-    printd("%d",elements);
+    printf("%d",elements);
  }
 }
