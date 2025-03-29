@@ -12,6 +12,10 @@ int main(){
     for(int i=0;i<n;i++){
         int num=arr[i], sum=0;
 
+        if(num<0){
+            num = -num;
+        }
+
         while(num>0){
             sum += num%10;
             num /= 10;
