@@ -10,7 +10,7 @@ int main(){
     }
 
     for(int missing = 1 ;;missing++){
-        found= 0;
+       int found= 0;
     }
 
     for(int i =0;i<N;i++){
