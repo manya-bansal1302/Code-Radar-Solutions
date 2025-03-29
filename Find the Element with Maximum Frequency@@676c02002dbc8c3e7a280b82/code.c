@@ -22,5 +22,5 @@ int main(){
             maxEle = arr[i];
         }
     }
-    print("%d",maxEle);
+    printf("%d",maxEle);
 }
