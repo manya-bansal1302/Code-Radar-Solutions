@@ -11,7 +11,7 @@ int main(){
    int subtract = -1;
     for(int i=0;i<n;i++){
         for(int j=i+1;j<n;j++){
-            sub = arr[j]-arr[i];
+           int sub = arr[j]-arr[i];
             if(sub>subtract){
                 subtract=sub;
             }
