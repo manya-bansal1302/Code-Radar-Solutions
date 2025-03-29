@@ -9,13 +9,13 @@ int main(){
         scanf("%d",arr[i]);
     }
     
-    int frequency=-1;
+    int frequency=1;
     for(int i=0;i<N;i++){
         if(arr[i]==-1) continue;
         for(int j=i;j<N;j++){
             if(arr[i]==arr[j]){
                 frequency++;
-                arr[j]==-1
+                arr[j]==-1;
             }
         }
            printf("%d %d",arr[i],frequency);
