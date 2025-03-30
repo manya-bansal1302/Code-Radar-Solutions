@@ -29,5 +29,9 @@ int main(){
         num1 = num2;
         num2 = temp;
     }
+    if(num1 <INT_MAX && num2 <INT_MAX){
+        printf("-1\n");
+    }else{
     printf("%d %d",num1,num2);
+    }
 }
