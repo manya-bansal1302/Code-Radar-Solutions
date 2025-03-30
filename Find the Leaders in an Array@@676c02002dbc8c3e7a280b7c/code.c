@@ -13,11 +13,11 @@ int main(){
     for(int i=0;i<n;i++){
         for(int j=i+1;j<n;j++){
             if(leaders >= arr[i]){
-                leaders = arr[i];
+                arr[i] = leaders;
             }
         }
     }
     for(int i=0;i<n;i++){
-        printf("%d",arr[i]);
+        printf("%d ",arr[i]);
     }
 }
