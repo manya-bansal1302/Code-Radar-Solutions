@@ -5,16 +5,19 @@ int main(){
     scanf("%d",&n);
 
     int arr[n];
-    for(int i=0;i<n;i++){
+    for(int i=0; i<n; i++){
         scanf("%d",&arr[i]);
     }
 
     int leaders = arr[n-1];
-    printf("%d", leaders);
-    for(int i=n-2;i>=0;i--){
-            if(arr[i]>leaders ){
-                leaders = arr[i];
-                printf("%d ", leaders);
-            }
+    printf("%d ", leaders); 
+
+    for(int i=n-2; i>=0; i--){
+        if(arr[i] > leaders){
+            leaders = arr[i];
+            printf("%d ", leaders);  
+        }
     }
+
+    return 0;
 }
