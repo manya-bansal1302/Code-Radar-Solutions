@@ -9,15 +9,12 @@ int main(){
         scanf("%d",&arr[i]);
     }
 
-    int leaders = 0;
+    int leaders = arr[n-1];
     for(int i=0;i<n;i++){
-        for(int j=i+1;j<n;j++){
-            if(leaders >= arr[i]){
-                arr[i] = leaders;
+        
+            if(leaders < arr[i]){
+                leaders = arr[i];
+                printf("%d",leaders);
             }
-        }
-    }
-    for(int i=0;i<n;i++){
-        printf("%d ",arr[i]);
     }
 }
