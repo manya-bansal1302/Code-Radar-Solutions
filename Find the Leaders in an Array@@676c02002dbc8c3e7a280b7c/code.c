@@ -12,7 +12,7 @@ int main(){
     int leaders = 0;
     for(int i=0;i<n;i++){
         for(int j=i+1;j<n;j++){
-            if(leaders >= arr[i-1]){
+            if(leaders >= arr[i]){
                 arr[i] = leaders;
             }
         }
