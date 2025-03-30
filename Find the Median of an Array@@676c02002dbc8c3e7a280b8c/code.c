@@ -11,7 +11,7 @@ int main(){
 
     int median ;
     for(int i=0;i<n;i++){
-        int low = arr[i];
+        int low = arr[0];
         int high = arr[n-1];
 
         int median = (low+high)/2;
