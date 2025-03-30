@@ -11,12 +11,12 @@ int main(){
 
     int leaders = 0;
     for(int i=0;i<n;i++){
-        
-            if(arr[i]>=arr[i-1]){
+        for(int j=i+1;j<n;j++){
+            if(leaders >= arr[i]){
                 arr[i] = leaders;
             }
         }
-    
+    }
     for(int i=0;i<n;i++){
         printf("%d ",arr[i]);
     }
