@@ -10,7 +10,7 @@ int main(){
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
-   int subtract = INT_MAX;
+   int subtract = -1;
    int num1 =0;
    int num2 =0;
     for(int i=0;i<n;i++){
