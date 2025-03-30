@@ -11,8 +11,8 @@ int main(){
         scanf("%d",&arr[i]);
     }
    int subtract = INT_MAX;
-   int num1;
-   int num2;
+   int num1 =0;
+   int num2 =0;
     for(int i=0;i<n;i++){
         for(int j=i+1;j<n;j++){
            int sub = abs(arr[j]-arr[i]);
