@@ -10,8 +10,7 @@ int main(){
     }
 
     int leaders = arr[n-1];
-    for(int i=0;i<n;i++){
-        
+    for(int i=n-2;i>0;i--){
             if(leaders < arr[i]){
                 leaders = arr[i];
                 printf("%d",leaders);
