@@ -1,5 +1,6 @@
 // Your code here...
 #include<stdio.h>
+#include<limits.h>
 int main(){
     int n;
     scanf("%d",&n);
@@ -8,16 +9,18 @@ int main(){
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
-   int subtract = -1;
+   int subtract = INT_MAX;
+   int num1;
+   int num2;
     for(int i=0;i<n;i++){
         for(int j=i+1;j<n;j++){
-           int sub = arr[j]-arr[i];
-            if(sub>subtract){
+           int sub = abs(arr[j]-arr[i]);
+            if(sub<subtract){
                 subtract=sub;
+                num1 = arr[i];
+                num2 = arr[j];
             }
-        printf("%d",subtract);
-        return 0;
         }
     }
-    printf("\n");
+    printf("%d %d",num1,num2);
 }
