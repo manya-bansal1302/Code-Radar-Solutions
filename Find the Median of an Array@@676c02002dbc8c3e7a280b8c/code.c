@@ -15,7 +15,6 @@ int main(){
         int high = arr[n-1];
 
         int median = (low+high)/2;
-
-        printf("%d",median);
     }
+    printf("%d",median);
 }
