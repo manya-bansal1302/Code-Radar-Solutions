@@ -9,12 +9,19 @@ int main(){
         scanf("%d",&arr[i]);
     }
 
-    int median ;
     for(int i=0;i<n;i++){
-        int low = arr[0];
-        int high = arr[n-1];
-
-        int median = (low+high)/2;
+        for(int j=i+1;i<n;i++){
+            if(arr[i]>arr[j]){
+                int temp = arr[i];
+                arr[i]=arr[j];
+                arr[j] = temp;
+            }
+        }
     }
-    printf("%d",median);
+    if(n%2==0){
+        printf("%d",arr[n/2]);
+    }
+    else{
+        printf("%d",(arr[n/2-1] + arr[n/2])/2);
+    }
 }
