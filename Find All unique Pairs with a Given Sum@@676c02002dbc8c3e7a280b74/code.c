@@ -21,12 +21,12 @@ int main() {
             if (arr[i] + arr[j] == sum) {
                 printf("%d %d\n", arr[i], arr[j]);
 
-                // // Mark duplicates as invalid to avoid repeating the same pair
-                // for (int k = j + 1; k < n; k++) {
-                //     if (arr[k] == arr[j]) {
-                //         arr[k] = -99999;  // Mark as invalid
-                //     }
-                // }
+                // Mark duplicates as invalid to avoid repeating the same pair
+                for (int k = j + 1; k < n; k++) {
+                    if (arr[k] == arr[j]) {
+                        arr[k] = -99999;  // Mark as invalid
+                    }
+                }
             }
         }
     }
