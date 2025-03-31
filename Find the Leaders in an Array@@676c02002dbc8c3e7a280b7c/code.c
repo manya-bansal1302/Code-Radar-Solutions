@@ -1,23 +1,38 @@
-// Your code here...
-#include<stdio.h>
-int main(){
-    int n;
-    scanf("%d",&n);
+#include <stdio.h>
 
-    int arr[n];
-    for(int i=0; i<n; i++){
-        scanf("%d",&arr[i]);
+int main() {
+    int n;
+    scanf("%d", &n);
+    
+    int arr[n], leaders[n], count = 0;
+
+    for (int i = 0; i < n; i++) {
+        scanf("%d", &arr[i]);
     }
 
-    int leaders = arr[n-1];
-    printf("%d ", leaders); // Print the last element first with space
+    int max = arr[n - 1]; 
+    leaders[count++] = max; 
 
-    for(int i=n-2; i>=0; i--){
-        if(arr[i] > leaders){
-            leaders = arr[i];
-            printf("%d ", leaders);  // Print leaders correctly
+    for (int i = n - 2; i >= 0; i--) {
+        if (arr[i] > max) {
+            max = arr[i];
+            leaders[count++] = max; 
         }
     }
 
-    return 0;  // This should be correctly placed inside the function
+    for (int i = 0; i < count; i++) {
+        for (int j = i + 1; j < count; j++) {
+            if (leaders[i] > leaders[j]) {
+                int temp = leaders[i];
+                leaders[i] = leaders[j];
+                leaders[j] = temp;
+            }
+        }
+    }
+
+    for (int i = 0; i < count; i++) {
+        printf("%d ", leaders[i]);
+    }
+
+    return 0;
 }
