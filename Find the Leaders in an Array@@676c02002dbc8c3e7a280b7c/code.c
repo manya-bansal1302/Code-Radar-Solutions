@@ -4,35 +4,24 @@ int main() {
     int n;
     scanf("%d", &n);
     
-    int arr[n], leaders[n], count = 0;
-
+    int arr[n];
+    
+   
     for (int i = 0; i < n; i++) {
         scanf("%d", &arr[i]);
     }
-
+    
+    // Start checking leaders from the rightmost element
     int max = arr[n - 1]; 
-    leaders[count++] = max; 
+    printf("%d ", max); // Rightmost element is always a leader
 
     for (int i = n - 2; i >= 0; i--) {
         if (arr[i] > max) {
             max = arr[i];
-            leaders[count++] = max; 
+            printf("%d ", max);
         }
     }
-
-    for (int i = 0; i < count; i++) {
-        for (int j = i + 1; j < count; j++) {
-            if (leaders[i] > leaders[j]) {
-                int temp = leaders[i];
-                leaders[i] = leaders[j];
-                leaders[j] = temp;
-            }
-        }
-    }
-
-    for (int i = 0; i < count; i++) {
-        printf("%d ", leaders[i]);
-    }
-
+    
     return 0;
 }
+Loading Code...
