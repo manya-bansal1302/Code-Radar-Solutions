@@ -11,9 +11,9 @@ int main() {
         scanf("%d", &arr[i]);
     }
     
-    // Start checking leaders from the rightmost element
+  
     int max = arr[n - 1]; 
-    printf("%d ", max); // Rightmost element is always a leader
+    printf("%d ", max); 
 
     for (int i = n - 2; i >= 0; i--) {
         if (arr[i] > max) {
@@ -24,4 +24,3 @@ int main() {
     
     return 0;
 }
-Loading Code...
