@@ -9,9 +9,9 @@ int main(){
         scanf("%d",&arr[i]);
     }
 
-    for(int j=N-1;j>0;j--){
+    for(int j=N-1;j>=0;j--){
         int i=0;
-        while(i+=j){
+        while(i!=j){
         if(arr[i]>arr[j]){
             int temp = arr[j];
             arr[j] = arr[i];
@@ -27,4 +27,5 @@ int main(){
         }
     }
     printf("%d",cnt);
+    return 0;
 }
