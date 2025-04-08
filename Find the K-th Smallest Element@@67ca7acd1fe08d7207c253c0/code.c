@@ -1,14 +1,18 @@
 // Your code here...
-kthSmallest(int arr[],int n,int k){
-    int temp = -1;
-    for(int i=0;i<n;i++){
-        for(int j=i;j<n;j++){
-            if(arr[i]>arr[j]){
-                temp =arr[i];
-                arr[i] = arr[j];
-                arr[j] = temp;
+int kthSmallest(int arr[], int n, int k) {
+    if (k <= 0 || k > n) {
+        return -1; 
+    }
+
+    for (int i = 0; i < n - 1; i++) {
+        for (int j = 0; j < n - 1 - i; j++) {
+            if (arr[j] > arr[j + 1]) {
+                int temp = arr[j];
+                arr[j] = arr[j + 1];
+                arr[j + 1] = temp;
             }
         }
     }
-    printf("%d",temp);
+
+    return arr[k - 1]; 
 }
