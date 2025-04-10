@@ -1,4 +1,5 @@
 // Your code here...
+
 int selectionSort(char arr[][100],int n){
     char temp[100];
     for(int i=0;i<n;i++){
@@ -14,6 +15,6 @@ int selectionSort(char arr[][100],int n){
 
 int printArray(char arr[][100],int n){
     for(int i=0;i<n;i++){
-        printf("%d",arr[i]);
+        printf("%s",arr[i]);
     }
 }
