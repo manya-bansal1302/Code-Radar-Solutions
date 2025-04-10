@@ -1,5 +1,5 @@
 // Your code here...
-int findUnsortedSubbarray(int arr[],int n){
+int findUnsortedSubarray(int arr[],int n){
     for(int i=0;i<n;i++){
         for(int j=i;j<n;j++){
             int temp = arr[i];
